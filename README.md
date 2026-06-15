@@ -9,6 +9,7 @@ refined portal-vein annotations for public CT datasets.
 
 ## Introduction
 PV and PVTT are treated as a single foreground class. This design prioritizes preservation of the complete portal venous tree and thrombus-related vascular continuity.
+
 The main components of PVTree-Net include:
 
 - A 3D residual encoder for robust multiscale vascular feature extraction.
