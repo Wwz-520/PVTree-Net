@@ -1,4 +1,4 @@
-**Overview**
+## Overview
 
 PVTree-Net is a 3D medical image segmentation framework for the unified delineation of the portal vein (PV) and portal vein tumor thrombus (PVTT) in portal venous phase CT.
 The project is built on nnU-Net v2 and combines:
@@ -14,7 +14,6 @@ The main components of PVTree-Net include:
 - A 3D residual encoder for robust multiscale vascular feature extraction.
 - Pyramid split attention in high-level skip connections.
 - Multiscale convolutional kernels for vessels with large diameter variations.
-- Deep supervision within an nnU-Net v2-based U-shaped architecture.
 - FedProx-based federated fine-tuning using NVIDIA FLARE.
 - Revised and publicly released portal-vein annotations derived from public abdominal CT datasets.
 
