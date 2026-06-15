@@ -110,3 +110,10 @@ Users must:
 - Follow the licenses and terms of the original datasets.
 - Match the revised masks with the corresponding original cases.
 - Cite both the original datasets and the PVTree-Net project when using these annotations.
+Although the masks were manually reviewed and corrected, they remain research annotations and should not be regarded as clinical ground truth for diagnosis or treatment planning.
+
+
+
+## Disclaimer
+
+This project is intended for research use only. It is not a medical device and must not be used for clinical diagnosis, treatment planning, or patient-management decisions.
