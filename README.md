@@ -6,5 +6,21 @@ a 3D residual encoder for stable multiscale feature extraction;
 pyramid split attention in high-level skip connections;
 FedProx-based federated fine-tuning using NVIDIA FLARE;
 refined portal-vein annotations for public CT datasets.
+
+## Introduction
 PV and PVTT are treated as a single foreground class. This design prioritizes preservation of the complete portal venous tree and thrombus-related vascular continuity.
-> \*\*Research use only.\*\* This repository is not a medical device and must not be used for clinical diagnosis or treatment decisions.
+The main components of PVTree-Net include:
+
+- A 3D residual encoder for robust multiscale vascular feature extraction.
+- Pyramid split attention in high-level skip connections.
+- Multiscale convolutional kernels for vessels with large diameter variations.
+- Deep supervision within an nnU-Net v2-based U-shaped architecture.
+- FedProx-based federated fine-tuning using NVIDIA FLARE.
+- Revised and publicly released portal-vein annotations derived from public abdominal CT datasets.
+
+This repository provides:
+
+- The source code of the PVTree-Net architecture.
+- The implementation of FedProx-based federated fine-tuning.
+- Revised portal-vein annotations for public CT datasets.
+- Example annotation masks and related documentation.
