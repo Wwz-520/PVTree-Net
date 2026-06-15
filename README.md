@@ -88,17 +88,25 @@ The revised masks are available in:
 
 ```text
 PVTree-Net/
-├── data/
+├── data/                           # Revised 3D-IRCADb-01 labels
 │   ├── PV_01.nii.gz
 │   ├── ...
 │   ├── PV_20.nii.gz
 │   ├── labels.zip
 │   └── README.md
-└── reannotated.zip
+└── reannotated.zip                 # Revised MSD Task08 labels
 ```
 
-- `data/` contains revised portal-vein annotations and example resources associated with 3D-IRCADb-01.
-- `reannotated.zip` contains the revised public-dataset annotation package.
+- `data/` contains the revised portal-vein labels for the 20 cases of **3D-IRCADb-01**.
+- `reannotated.zip` contains the revised portal-vein labels derived from **MSD Task08: HepaticVessel**.
+
+### Annotation file mapping
+
+| File or directory | Source public dataset | Content |
+|---|---|---|
+| `reannotated.zip` | MSD Task08: HepaticVessel | Manually revised portal-vein segmentation labels |
+| `data/PV_01.nii.gz`–`data/PV_20.nii.gz` | 3D-IRCADb-01 | Revised portal-vein labels for the 20 public CT cases |
+| `data/labels.zip` | 3D-IRCADb-01 | Compressed package of the revised labels |
 
 ### Important data-use statement
 
