@@ -99,8 +99,8 @@ class UNetDecoder(nn.Module):
 
 
         self.psa_modules = nn.ModuleList()
-        features_per_stage = encoder.output_channels  
-        psa_stages = [len(features_per_stage)-3, len(features_per_stage)-2]  
+        
+        psa_stages = [1, 2]  
 
         for s in range(1, n_stages_encoder):
             skip_ch = encoder.output_channels[-(s + 1)]
